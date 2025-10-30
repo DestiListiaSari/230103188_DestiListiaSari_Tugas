@@ -176,7 +176,7 @@ def menu():
     
     while True:
         
-        print("\n=== Student Performance Tracker (Running via -m) ===") 
+        print("\n=== Student Performance Tracker ===") 
         print("1) Muat Data dari CSV")
         print("2) Tambah Mahasiswa")
         print("3) Ubah Presensi")
@@ -250,4 +250,5 @@ def menu():
 # Titik masuk utama program
 if __name__ == "__main__":
     menu()
+
 
